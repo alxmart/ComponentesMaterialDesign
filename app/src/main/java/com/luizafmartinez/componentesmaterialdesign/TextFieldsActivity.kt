@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.luizafmartinez.componentesmaterialdesign.databinding.ActivityButtonsBinding
 
-class ButtonsActivity : AppCompatActivity() {
+class TextFieldsActivity : AppCompatActivity() {
 
     private val binding by lazy {
         ActivityButtonsBinding.inflate(layoutInflater)
@@ -23,6 +23,5 @@ class ButtonsActivity : AppCompatActivity() {
             ButtonsActivity::class.java
         )
     }
-
 
 }
