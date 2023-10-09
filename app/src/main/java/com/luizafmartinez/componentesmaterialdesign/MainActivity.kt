@@ -18,15 +18,12 @@ class MainActivity : AppCompatActivity() {
 
         insertListeners()
 
-
-
-
     }
 
     private fun insertListeners() {
 
         binding.cvButtons.setOnClickListener {
-            startActivity(ButtonsActivity.createIntent(context))
+            startActivity(ButtonsActivity.createIntent(this))
 
         }
 

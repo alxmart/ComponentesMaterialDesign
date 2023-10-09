@@ -27,8 +27,8 @@
         android:layout_margin="16dp"/>
 
     <com.google.android.material.button.MaterialButton
-        style="@style/Widget.Material3.Button.TextButton"
-        android:layout_width="match_parent"
+        style="@style/Widget.Material3.Button.TextButton.Dialog"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button Text"
         android:textAllCaps="false"
